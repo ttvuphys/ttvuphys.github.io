@@ -32,6 +32,14 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0&appId=344003056004402&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <!-- Preloader -->
     <div id="tt-preloader">
         <div id="pre-status">
@@ -567,13 +575,11 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="row">
+                    <div class="row">
                         <div class="col-sm-12">
-                            <div class="location-map">
-                                <div id="mapCanvas" class="map-canvas"></div>
-                            </div>
+                            <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5"></div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
             <!-- /.row -->
